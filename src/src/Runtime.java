@@ -7,7 +7,7 @@ public class Runtime {
 
 
 
-    public int division(int dividendo, int divisor){
+    public int division(int dividendo, int divisor) throws Exception {
 
         int resultado = (int) (dividendo/divisor);
 
@@ -16,7 +16,7 @@ public class Runtime {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Runtime ejemplo = new Runtime();
         Runtime ejemplo2 = new Runtime();
